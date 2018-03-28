@@ -1,0 +1,28 @@
+.form-template-button {
+    cursor: pointer;
+    margin-top: 18px;
+    margin-left: 70px;
+    margin-right: 70px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.75);
+    padding: 8px;
+    box-sizing: border-box;
+
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.form-template-button:active {
+    background-color: #fff;
+}
+
+.instruction {
+    color: #27af5c;
+    text-align: center;
+}
+
+.body {
+    color: #555;
+    text-align: center;
+    padding: 4px;
+}

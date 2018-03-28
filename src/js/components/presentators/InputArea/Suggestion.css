@@ -1,0 +1,23 @@
+.suggestion {
+    background: white;
+    color: #555;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+    font-size: 14px;
+}
+
+.suggestion > div {
+    cursor: pointer;
+    padding: 8px;
+}
+
+.suggestion > div:hover {
+    background: #eee;
+}
+
+.suggestion > div:active {
+    background: #eee;
+}
+
+.hidden {
+    display: none;
+}

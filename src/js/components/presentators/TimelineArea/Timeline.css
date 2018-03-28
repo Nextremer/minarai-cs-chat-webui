@@ -1,0 +1,101 @@
+.timeline {
+  min-height: 100%;
+  box-sizing: border-box;
+  padding: 5px 5px 70px;
+}
+
+.entry-container {
+  position: relative;
+  margin: 5px;
+}
+
+.left-face, .right-face {
+  background-color: #fff;
+  background-size: contain;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 100px;
+  position: absolute;
+  top: -5px;
+  border: solid 2px #fff;
+}
+
+.left-face {
+  left: 0;
+  background-size: contain;
+}
+
+
+.right-face {
+  right: 0;
+  background-size: contain;
+}
+
+
+.history-loader {
+  margin: 10px;
+  line-height: 24px;
+  position: relative;
+  height: 1em;
+}
+
+.history-loader-button {
+  cursor: pointer;
+  text-align: center;
+  color: #369036;
+  background: rgba(255,255,255,0.5);
+  border-radius: 20px;
+  position: absolute;
+  width: 120px;
+  left: 50%;
+  margin-left: -60px;
+}
+
+
+.spinner {
+  margin: 5px auto 0;
+  width: 70px;
+  text-align: center;
+}
+
+.spinner > div {
+  width: 16px;
+  height: 16px;
+  background-color: #49b676;
+
+  border-radius: 100%;
+  display: inline-block;
+  -webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+  animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+}
+
+.spinner .bounce1 {
+  -webkit-animation-delay: -0.32s;
+  animation-delay: -0.32s;
+}
+
+.spinner .bounce2 {
+  -webkit-animation-delay: -0.16s;
+  animation-delay: -0.16s;
+}
+
+.spinner .bounce3 {
+  -webkit-animation-delay: -0.0s;
+  animation-delay: -0.0s;
+}
+
+@-webkit-keyframes sk-bouncedelay {
+  0%, 80%, 100% { -webkit-transform: scale(0) }
+  40% { -webkit-transform: scale(1.0) }
+}
+
+@keyframes sk-bouncedelay {
+  0%, 80%, 100% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  } 40% {
+    -webkit-transform: scale(1.0);
+    transform: scale(1.0);
+  }
+}

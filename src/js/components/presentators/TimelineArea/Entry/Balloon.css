@@ -1,0 +1,45 @@
+.left-balloon, .right-balloon {
+    margin: 24px 55px;
+    padding: 8px;
+    border-radius: 5px;
+    position: relative;
+
+    word-wrap: break-word;
+    line-height: 18px;
+    font-size: 14px;
+
+    -webkit-filter: drop-shadow(0px 2px 3px rgba(0, 0, 0, 0.3));
+}
+
+.left-balloon {
+    background: #f8f8f8;
+    color: #000;
+}
+
+.right-balloon {
+    background: #cdf5c7;
+    color: #000;
+}
+
+
+.left-balloon:before {
+    content: "";
+    display: inline-block;
+    border: 6px solid transparent;
+    border-right-color: #f8f8f8;
+    position: absolute;
+    left: -12px;
+    top: 14px;
+    margin-top: -9px;
+}
+
+.right-balloon:before {
+    content: "";
+    display: inline-block;
+    border: 6px solid transparent;
+    border-left-color: #cdf5c7;
+    position: absolute;
+    right: -12px;
+    top: 14px;
+    margin-top: -9px;
+}

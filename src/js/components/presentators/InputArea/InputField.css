@@ -1,0 +1,93 @@
+
+.input-bar {
+  border-top: solid 1px #CCC;
+  display: flex;
+  flex-direction: row;
+  background: #FFF;
+}
+
+.plus {
+  cursor: pointer;
+  flex: 0 0 50px;
+}
+
+.plus div {
+  width: 36px;
+  height: 36px;
+  color: #999;
+  background: #EEE;
+  border-radius: 60px;
+  text-align: center;
+  line-height: 39px;
+  font-size: 25px;
+  margin: 7px;
+}
+
+.plus input {
+		display: none;
+}
+
+.textbox {
+  flex-grow: 1;
+  width: 100%;
+  height: 50px;
+  padding: 16px 2px;
+  font-size: 16px;
+  line-height: 18px;
+  outline: none;
+  border: none;
+	resize: none;
+}
+
+.send-button {
+  cursor: pointer;
+  flex: 0 0 50px;
+  background: #49b676;
+  line-height: 50px;
+  font-size: 26px;
+  color: white;
+  text-align: center;
+  position: relative;
+}
+
+.send-button > i {
+  position: absolute;
+  top: 50%;
+  margin-top: -15px;
+  left: 50%;
+  margin-left: -15px;
+}
+
+.send-button:active {
+  background: #5fcc8c;
+}
+
+.send-button.disabled {
+  cursor: default;
+  background: #bbb;
+}
+
+.suggest-box {
+  background: white;
+  color: #555;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+}
+
+.suggest-box > div {
+  padding: 4px;
+}
+
+.suggest-box > div:active {
+  background: #EEE;
+}
+
+.ime-margin-off {
+  background: #fff;
+  height : 0px;
+}
+
+.ime-margin-on {
+  background: #fff;
+  height : 34px;
+  border-top: solid 1px #CCC;
+}

@@ -1,0 +1,20 @@
+.bot, .operator, .user {
+    position: relative;
+    margin: 5px 62px 0;
+}
+
+.bot, .operator {
+   text-align: left;
+}
+
+.user {
+   text-align: right;
+}
+
+.image-file {
+    max-width: 100%;
+}
+
+.other-file {
+    max-width: 40px;
+}

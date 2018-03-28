@@ -1,0 +1,10 @@
+.message-bar {
+  height: 20px;
+  text-align: center;
+  font-size: 12px;
+  line-height: 20px;
+  margin: 35px 30px;
+  border-radius: 20px;
+  background: #608eda;
+  color: #fff;
+}

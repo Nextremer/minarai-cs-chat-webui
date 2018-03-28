@@ -1,0 +1,78 @@
+.vertical-buttons {
+    margin-top: 24px;
+    margin-left: 62px;
+    margin-right: 62px;
+}
+
+.vertical-buttons > div {
+    border-radius: 5px;
+    padding: 10px;
+    margin: 8px 5px;
+
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.horizontal-buttons {
+    margin-top: 24px;
+    margin-left: 62px;
+    margin-right: 62px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.horizontal-buttons > div {
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+    flex: 1 0 0;
+    text-align: center;
+
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.enabled-button {
+    cursor: pointer;
+    background: #49b676;
+    color: #FFF;
+    box-shadow: 0 1px 0 #328253;
+}
+
+.enabled-button:active {
+    background: #5fcc8c;
+}
+
+.disabled-button {
+    background: #cecece;
+    color: #808080;
+}
+
+.selected-button {
+    background: #53d486;
+    color: #327f51;
+}
+
+.special-enabled-button {
+    cursor: pointer;
+    background: #4976b6;
+    color: #FFF;
+    box-shadow: 0 1px 0 #325382;
+}
+
+.special-enabled-button:active {
+    background: #5f8ccc;
+}
+
+.special-disabled-button {
+    background: #cecece;
+    color: #808080;
+}
+
+.special-selected-button {
+    background: #5386d4;
+    color: #32517f;
+}
